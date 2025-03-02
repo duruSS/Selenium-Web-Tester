@@ -5,9 +5,9 @@ if __name__ == "__main__":
     
     # Regular login Tests Cases
 
-    tester.test_login("", "")  #Test Case 1: No e-mail & password.
+    tester.test_login("", "")  #Test Case 1: No e-mail & password. Warning: Lütfen bu alanı doldurun
     
-    tester.test_login("", "12345") #Test Case 2: No e-mail.
+    tester.test_login("", "12345") #Test Case 2: No e-mail. Warning: Lütfen bu alanı doldurun
     
     tester.test_login("duru.solakoglu@ug.bilkent", "") #Test Case 3: No password. Warning: Invalid credentials
 
